@@ -16,8 +16,6 @@ sin(45*Double.pi/180)
 
 (2.0).squareRoot()
 
-max(5,10,48,100,150,170)
-
 let pi:Double=3.14159
 
 let number:Int = 10
@@ -66,3 +64,24 @@ message += name
 
 let oneThird = 1.0 / 3.0
 let oneThirdLongString = "One third is \(oneThird) as a decimal"
+
+let coordinate = (3,4)
+let x1 = coordinate.0
+let y1 = coordinate.1
+
+let coordinate2 = (2.2,2.5)
+
+let coordinate3 = (x:5,y:6)
+let x2 = coordinate3.x
+let y2 = coordinate3.y
+
+let coordinate3D = (x:1,y:2,z:3)
+let (x:Int1,y:Int2,z:Int3) = coordinate3D
+
+//condition
+let a = 5
+let b = 10
+let min = a<b ? a:b
+let max = a>b ? a:b
+print(min)
+print(max)
