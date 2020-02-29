@@ -17,3 +17,12 @@ sin(45*Double.pi/180)
 (2.0).squareRoot()
 
 max(5,10,48,100,150,170)
+
+let pi:Double=3.14159
+
+let Number:Int = 10
+
+var variableNumber:Int = 42
+
+variableNumber = 0
+variableNumber = 1_000_000
