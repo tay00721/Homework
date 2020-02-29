@@ -41,3 +41,20 @@ else
 print("odd")
 }
 
+let testNumber1:Int = 40
+let evenood = testNumber1 % 2
+print(evenood)
+
+var integer:Int = 100
+var decimal:Double = 12.5
+integer = Int(decimal)
+decimal = Double(integer)
+
+let hourlyRate:Double = 19.5
+let hourWorked:Int = 10
+let totalCost:Double = hourlyRate * Double(hourWorked)
+
+let age1 = 15.5
+let age2 = 25
+let average:Double = ( Double(age1) + Double(age2)) / 2
+
