@@ -20,9 +20,13 @@ max(5,10,48,100,150,170)
 
 let pi:Double=3.14159
 
-let Number:Int = 10
+let number:Int = 10
 
 var variableNumber:Int = 42
 
 variableNumber = 0
 variableNumber = 1_000_000
+
+var counter:Int = 0
+counter += 1
+counter -= 1
