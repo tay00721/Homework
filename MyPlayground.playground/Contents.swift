@@ -30,3 +30,14 @@ variableNumber = 1_000_000
 var counter:Int = 0
 counter += 1
 counter -= 1
+
+let testNumber:Int = 11
+if testNumber % 2 == 0
+{
+print("even")
+}
+else
+{
+print("odd")
+}
+
