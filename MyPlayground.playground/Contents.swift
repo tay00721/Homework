@@ -85,3 +85,11 @@ let min = a<b ? a:b
 let max = a>b ? a:b
 print(min)
 print(max)
+
+var sum = 1
+while sum<1000
+{
+    sum = sum + (sum + 1)
+}
+
+let closedRange = 0...5
