@@ -58,3 +58,11 @@ let age1 = 15.5
 let age2 = 25
 let average:Double = ( Double(age1) + Double(age2)) / 2
 
+let stringDog = "Dog"
+
+var message = "Hello " + "my name is"
+var name = " Jotaro"
+message += name
+
+let oneThird = 1.0 / 3.0
+let oneThirdLongString = "One third is \(oneThird) as a decimal"
