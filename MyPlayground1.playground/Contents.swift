@@ -161,3 +161,20 @@ else
         print("Can't divisible by 2 or 6.")
     }
 }
+
+
+
+let start = 1
+let stop = 12
+for a in start...stop
+{
+    for b in start...stop
+    {
+        let sum = a * b
+        print(String(a) + "*" + String(b) + "=" + String(sum) )
+    }
+}
+
+
+
+
