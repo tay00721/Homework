@@ -19,6 +19,9 @@ print(different)
 print(multiply)
 print(divide)
 
+
+
+
 var inputCurrency = 5346
 let currency = "Input Currency: " + String(inputCurrency)
 print(currency)
@@ -126,3 +129,35 @@ else
     print("Coin 1 = 0")
 }
 
+
+
+
+
+
+var inputNumberr = 7
+if (inputNumberr % 2 == 0)
+{
+    print("Odd Number")
+    inputNumberr = inputNumberr - 1
+    if (inputNumberr % 3 == 0 && inputNumberr % 5 == 0)
+    {
+        print("Can divisible by 3 and 5.")
+    }
+    else
+    {
+        print("Can't divisible by 3 and 5.")
+    }
+}
+else
+{
+    print("Even Number")
+    inputNumberr = inputNumberr + 1
+    if (inputNumberr % 2 == 0 || inputNumberr % 6 == 0)
+    {
+        print("Can divisible by 2 or 6.")
+    }
+    else
+    {
+        print("Can't divisible by 2 or 6.")
+    }
+}
