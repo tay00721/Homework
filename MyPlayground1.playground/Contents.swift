@@ -177,4 +177,27 @@ for a in start...stop
 
 
 
+let score = 102
+switch score
+{
+case 0...49:
+print ("Grade F")
+case 50...54:
+print ("Grade D+")
+case 55...59:
+print ("Grade D")
+case 60...64:
+print ("Grade C")
+case 65...69:
+print ("Grade C+")
+case 70...74:
+print ("Grade B")
+case 75...79:
+print ("Grade B+")
+case 80...100:
+print ("Grade A")
+default:
+    print("Error, score isn't corrected")
+}
+
 
